@@ -10,7 +10,7 @@ A simple shared realtime multi-user whiteboard proof of concept.
 
 \* Limited by connection and numeric storage limits
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 
 ## Motivation
 
