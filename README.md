@@ -64,7 +64,7 @@ Left click and drag allows freehand drawing with the set line weight and color.
 Left click and hold to set one point of the line, the mouse can be moved to preview the line with the second point at the mouse location, releasing the mouse button will create the line with the set line weight and color.  
 Holding ctrl while dragging will force only vertical and horizontal lines.
 
-#### Rectable Tool
+#### Rectangle Tool
 Left click and hold to set one corner of the rectangle, the mouse can be moved to preview the rectangle with the opposite corner at the mouse location, releasing the mouse button will create the rectangle with the set line weight and color.  
 Holding ctrl while dragging will force the rectangle to keep a 1:1 aspect ratio(square).
 
