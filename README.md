@@ -51,39 +51,39 @@ This creates a new whiteboard for that GUID if it doesn't already exist or loads
 
 #### Pointer Tool
 
-Left clicking within an object selects the object.
-Left clicking and holding allows dragging of the object to reposition it.
-Shift + left click on objects allows multiple obejcts to be selected, holding on the final object selection allows all objects to be repositioned together.
-Left clicking and holding outside of any objects allows the whiteboard viewport(user view of the whiteboard) to be moved.
+Left clicking within an object selects the object.  
+Left clicking and holding allows dragging of the object to reposition it.  
+Shift + left click on objects allows multiple obejcts to be selected, holding on the final object selection allows all objects to be repositioned together.  
+Left clicking and holding outside of any objects allows the whiteboard viewport(user view of the whiteboard) to be moved.  
 <del>Ctrl + left click and hold allows rectangle selection of objects.<del>
 
 #### Marker Tool
 Left click and drag allows freehand drawing with the set line weight and color.
 
 #### Line Tool
-Left click and hold to set one point of the line, the mouse can be moved to preview the line with the second point at the mouse location, releasing the mouse button will create the line with the set line weight and color.
+Left click and hold to set one point of the line, the mouse can be moved to preview the line with the second point at the mouse location, releasing the mouse button will create the line with the set line weight and color.  
 Holding ctrl while dragging will force only vertical and horizontal lines.
 
 #### Rectable Tool
-Left click and hold to set one corner of the rectangle, the mouse can be moved to preview the rectangle with the opposite corner at the mouse location, releasing the mouse button will create the rectangle with the set line weight and color.
+Left click and hold to set one corner of the rectangle, the mouse can be moved to preview the rectangle with the opposite corner at the mouse location, releasing the mouse button will create the rectangle with the set line weight and color.  
 Holding ctrl while dragging will force the rectangle to keep a 1:1 aspect ratio(square).
 
 #### Circle Tool
-Left click and hold to set one corner of the circle bounds, the mouse can be moved to preview the circle with the bounds opposite corner at the mouse location, releasing the mouse button will create the circle with the set line weight and color.
+Left click and hold to set one corner of the circle bounds, the mouse can be moved to preview the circle with the bounds opposite corner at the mouse location, releasing the mouse button will create the circle with the set line weight and color.  
 Holding ctrl while dragging will force the circle bounds to keep a 1:1 aspect ratio(prevent elipse.)
 
 #### Add Image
 Click the Browse... button and select an image, the image format must be supported by the browser. The loaded image will be placed at the center of the screen and can be selected to with the pointer tool to be moved.
 
 #### Keyboard Shortcuts
-[ and ] - Decrease/increase the line weight
-, and . - Move color index left and right
-1 - Pointer tool
-2 - Marker tool
-3 - Line tool
-4 - Rectangle tool
-5 - Circle tool
-Del - Delete selected object(s)
+[ and ] - Decrease/increase the line weight  
+, and . - Move color index left and right  
+1 - Pointer tool  
+2 - Marker tool  
+3 - Line tool  
+4 - Rectangle tool  
+5 - Circle tool  
+Del - Delete selected object(s)  
 d - Toggle debug mode
 
 ## Source Code Notes
