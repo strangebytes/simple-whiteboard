@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="whiteboard.js"></script>
+		<link rel="stylesheet" type="text/css" href="whiteboard.css">
+		<title>Whiteboard</title>
+	</head>
+	<body onLoad="whiteboardInit();">
+		<img id="pointer" src="pointer.png" style="display: none;">
+		<img id="marker" src="marker.png" style="display: none;">
+		<img id="line" src="line.png" style="display: none;">
+		<img id="rectangle" src="rectangle.png" style="display: none;">
+		<img id="circle" src="circle.png" style="display: none;">
+		<img id="text" src="text.png" style="display: none;">
+		<div style="position: absolute; right: 4px; top: 4px; padding: 0px; margin: 0px;">
+			<!--<input type="color" style = "height: 15px; margin: 0px;" />-->
+			<label for="addImage">Add Image:</label>
+			<input id="addImage" type="file" accept="image/*" onChange="whiteboardLoadImage(this); this.value = null;"></input>
+			<input type="button" onClick="saveImage()" value="Save Whiteboard as Image" />
+		</div>
+		<canvas id="whiteboardCanvas"></canvas>
+		<a href="#" id="download-link" style="display : none;"></a>
+	</body>
+</html>
